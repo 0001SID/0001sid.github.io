@@ -1,0 +1,21 @@
+.btn-big{
+    padding: 5px 50px;
+    background-color:transparent;
+    border: 1px solid;
+    border-radius: 10px;
+    color:white;
+}
+.btn-big:hover{
+    border-color:black;
+}
+.btn-small{
+    padding: 5px 15px;
+    background-color:transparent;
+    border: 1px solid;
+    border-radius: 10px;
+    color:white;
+    display: inline;
+}
+.btn-small:hover{
+    border-color:black;
+}

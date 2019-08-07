@@ -1,0 +1,34 @@
+body{
+    background-color:#F8F8F8;
+}
+.border-field{
+    border-color:#E7E7E7;
+}
+.mouse-pointer{
+    cursor: pointer;
+}
+.text-blue{
+    color:#4834DF;
+}
+.hide{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 300ms, opacity 300ms;
+}
+.show{
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s linear 0s, opacity 300ms;
+}
+.list-color{
+    color:#333945;
+}
+.bg-list{
+    background-color:#F7F7F7;
+    border-left:6px solid #586776;
+    padding:7px 5px;
+}
+.text-budget{
+    color:#FF7900;
+}
+
