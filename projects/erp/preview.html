@@ -1,0 +1,70 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Erp Preview</title>
+    <link rel="icon" type="image/png" href="../../images/icon.png" />
+    <link rel="stylesheet" href="../../vendor/revealjs/css/reset.css">
+    <link rel="stylesheet" href="../../vendor/revealjs/css/reveal.css">
+    <link rel="stylesheet" href="../../css/animate.css">
+    <link rel="stylesheet" href="../../vendor/revealjs/css/theme/black.css" id="theme">
+</head>
+
+<body>
+
+    <div class="reveal">
+
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides">
+            <section style = "">
+                <h1>COLLEGE ERP</h1>
+                <h3>A ERP to manage all college work with library management</h3>
+                <p>
+                    <small>Created by <a href="http://sumandas.gq">Suman Das</a> and <a
+                            href="https://gitlab.com/sunnyceekay">Sunny Chakrabarty</a></small>
+                </p>
+            </section>
+            <section data-background-video = "erp.mp4">
+                <div style="position: absolute; width: 40%;margin-left:80%;margin-top: 50%; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.7); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+                    <h2>Preview</h2>
+                    <p>Here a quick view of the ERP</p>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <script src="../../vendor/revealjs/js/reveal.js"></script>
+
+    <script>
+
+        // More info https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            center: true,
+            hash: true,
+            // width: "100%",
+            // height: "100%",
+            // margin: 0,
+            // minScale: 1,
+            // maxScale: 1,
+
+            transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+            // More info https://github.com/hakimel/reveal.js#dependencies
+            dependencies: [
+                { src: 'plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+                { src: 'plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+                { src: 'plugin/highlight/highlight.js', async: true },
+                { src: 'plugin/search/search.js', async: true },
+                { src: 'plugin/zoom-js/zoom.js', async: true },
+                { src: 'plugin/notes/notes.js', async: true }
+            ]
+        });
+
+    </script>
+</body>
+
+</html>
